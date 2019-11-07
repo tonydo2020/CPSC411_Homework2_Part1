@@ -26,7 +26,7 @@ public class PersonDB {
 
     protected void createPersonObjects() {
         // Create James Person object
-        Person p = new Person("Tony", "Do");
+        Person p = new Person("Tony", "Do", "82018321");
         ArrayList<Course> courses = new ArrayList<Course>();
 
         courses.add(new Course("CPSC 411", "A"));
@@ -37,7 +37,7 @@ public class PersonDB {
         mPeople = new ArrayList<Person>();
         mPeople.add(p);
         // Create Another Person
-        p = new Person("Joe", "Smith");
+        p = new Person("Joe", "Smith", "831231");
         courses = new ArrayList<Course>();
         courses.add(new Course("CPSC 353", "A"));
         p.setCourses(courses);

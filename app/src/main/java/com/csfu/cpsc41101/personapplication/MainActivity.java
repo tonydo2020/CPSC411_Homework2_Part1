@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void createPersonObjects() {
         // Create James Person object
-        Person p = new Person("Tony", "Do");
+        Person p = new Person("Tony", "Do", "123123");
         ArrayList<Course> courses = new ArrayList<Course>();
         courses.add(new Course("CPSC 411", "A"));
         courses.add(new Course("CPSC 471", "B"));
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Person> personList = new ArrayList<Person>();
         personList.add(p);
         // Create Another Person
-        p = new Person("Joe", "Smith");
+        p = new Person("Joe", "Smith", "1827312");
         courses = new ArrayList<Course>();
         courses.add(new Course("CPSC 401", "A"));
         courses.add(new Course("CPSC 353", "B"));
